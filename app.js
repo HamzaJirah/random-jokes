@@ -28,7 +28,9 @@ const getJokes = (e) => {
         jokesToDisplay += 'There was an error...😩';
       }
 
-      document.querySelector('.show-jokes').innerHTML = jokesToDisplay;
+      const result = document.querySelector('.show-jokes');
+      result.innerHTML = jokesToDisplay;
+      result.classList.add('output-contents');
     }
   }
 

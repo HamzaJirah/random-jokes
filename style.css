@@ -41,6 +41,9 @@ button[id="get-jokes"]:hover {
 .output-contents > *{
   display: block;
   border: .05rem solid black;
+  margin: .2rem auto;
+  text-align: center;
+  width: 20rem;
 }
 
 
