@@ -33,4 +33,8 @@ button[id="get-jokes"]:hover {
   cursor: pointer;
 }
 
+::placeholder {
+  text-align: center;
+}
+
 
