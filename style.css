@@ -7,9 +7,9 @@
 
 body {
   background: url(images/hallowed-boxes.svg);
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-repeat: repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
 .wrapper {
@@ -51,10 +51,12 @@ button[id="get-jokes"]:hover {
 
 .output-contents > *{
   display: block;
-  border: .05rem solid black;
+  /* border: .05rem solid rgb(209, 197, 197); */
   margin: .2rem auto;
   text-align: center;
   width: 20rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 
