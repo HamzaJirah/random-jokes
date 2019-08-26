@@ -5,9 +5,20 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(images/hallowed-boxes.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .wrapper {
   margin: 5rem auto;
   text-align: center;
+}
+
+.wrapper h1 {
+  color: #fff;
 }
 
 input[type="number"] {
