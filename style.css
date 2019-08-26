@@ -12,5 +12,9 @@
 
 input[type="number"] {
   display: inline-block;
+  height: 2rem;
+  width: 15rem;
+  border: .05rem solid grey;
+  border-radius: .2rem;
 }
 
