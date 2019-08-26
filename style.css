@@ -38,4 +38,9 @@ button[id="get-jokes"]:hover {
   text-align: center;
 }
 
+.output-contents > *{
+  display: block;
+  border: .05rem solid black;
+}
+
 
