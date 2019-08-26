@@ -31,6 +31,7 @@ button[id="get-jokes"] {
 
 button[id="get-jokes"]:hover {
   cursor: pointer;
+  background: rgb(38, 178, 38);
 }
 
 ::placeholder {
