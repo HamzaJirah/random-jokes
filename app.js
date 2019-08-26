@@ -21,7 +21,7 @@ const getJokes = (e) => {
       if(response.type === 'success'){
         response.value.forEach(joke => {
           jokesToDisplay += `
-            <p>${joke.joke}</p>
+            <div>${joke.joke}</div>
           `
         })
       } else {
