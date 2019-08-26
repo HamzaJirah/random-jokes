@@ -52,11 +52,11 @@ button[id="get-jokes"]:hover {
 .output-contents > *{
   display: block;
   /* border: .05rem solid rgb(209, 197, 197); */
-  margin: .2rem auto;
+  margin: .5rem auto;
   text-align: center;
   width: 20rem;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  color: #000;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 
